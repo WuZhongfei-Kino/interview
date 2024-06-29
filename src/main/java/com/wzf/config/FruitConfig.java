@@ -9,6 +9,7 @@ import java.util.List;
 
 @Configuration
 public class FruitConfig {
+
     public List<Fruit> getFruitList(Environment environment){
         List<Fruit> result = new ArrayList<>();
         Fruit fruit = new Fruit();
