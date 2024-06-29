@@ -1,0 +1,18 @@
+server:
+  port: 8090
+
+fruit:
+  apple:
+    id: 1
+    name: apple
+    price: 8
+
+  strawberry:
+    id: 2
+    name: strawberry
+    price: 13
+
+  mango:
+    id: 3
+    name: mango
+    price: 20
