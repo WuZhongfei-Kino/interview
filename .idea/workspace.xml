@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f1a372f-a0dc-433c-9c97-bdf7be85ffe2" name="Changes" comment="面试" />
+    <list default="true" id="9f1a372f-a0dc-433c-9c97-bdf7be85ffe2" name="Changes" comment="新增Excel文件处理接口">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,12 +16,44 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev20241120" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1732099706" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="dev20241120" />
+                    <option name="lastUsedInstant" value="1732099660" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -49,17 +84,24 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/program_WorkSpace/JBF-test",
+    "last_opened_file_path": "E:/program_WorkSpace/JBF-test/src/file",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\program_WorkSpace\JBF-test\src\file" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="JbftestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="JBF-test" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wzf.JbftestApplication" />
       <extension name="coverage">
         <pattern>
@@ -73,6 +115,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.JbftestApplication" />
         <item itemvalue="Spring Boot.JbftestApplication" />
       </list>
     </recent_temporary>
@@ -88,7 +131,11 @@
       <workItem from="1719636251975" duration="5551000" />
       <workItem from="1719641883667" duration="137000" />
       <workItem from="1719642076723" duration="42000" />
-      <workItem from="1719642136969" duration="627000" />
+      <workItem from="1719642136969" duration="2055000" />
+      <workItem from="1720701074925" duration="1797000" />
+      <workItem from="1720795930010" duration="650000" />
+      <workItem from="1731997792966" duration="11471000" />
+      <workItem from="1732065306934" duration="3130000" />
     </task>
     <task id="LOCAL-00001" summary="面试">
       <option name="closed" value="true" />
@@ -98,15 +145,43 @@
       <option name="project" value="LOCAL" />
       <updated>1719642432217</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="面试">
+      <option name="closed" value="true" />
+      <created>1719643249953</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719643249953</updated>
+    </task>
+    <task id="LOCAL-00003" summary="新增Excel文件处理接口">
+      <option name="closed" value="true" />
+      <created>1732099539119</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732099539119</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="面试" />
-    <option name="LAST_COMMIT_MESSAGE" value="面试" />
+    <MESSAGE value="新增Excel文件处理接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增Excel文件处理接口" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
