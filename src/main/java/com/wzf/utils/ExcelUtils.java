@@ -99,12 +99,13 @@ public class ExcelUtils {
         }else {
             value = cell.getStringCellValue();
         }*/
-        System.out.println("cell.getCellType():"+cell.getCellType());
-        if (cell.getCellType() == NUMERIC || cell.getCellType() == DECIMAL) {
-            value = String.valueOf(cell.getNumericCellValue());
-        } else {
-            value = cell.getStringCellValue();
-        }
+//        System.out.println("cell:"+cell+"cell.getCellType():"+cell.getCellType());
+        value = cell.toString();
+//        if (cell.getCellType() == NUMERIC || cell.getCellType() == DECIMAL) {
+//            value = String.valueOf(cell.getNumericCellValue());
+//        } else {
+//            value = cell.getStringCellValue();
+//        }
 
 //        if (cell.getCellType())
 //        value = cell.getStringCellValue();

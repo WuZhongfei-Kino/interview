@@ -36,10 +36,10 @@ public class ConsumerTotalController {
     @Autowired
     private ConsumerTotalService consumerTotalService;
 
-    @RequestMapping("/findFruits")
-    public List<Fruit> getParam(){
-        return fruitConfig.getFruitList(environment);
-    }
+//    @RequestMapping("/findFruits")
+//    public List<Fruit> getParam(){
+//        return fruitConfig.getFruitList(environment);
+//    }
 
 
     /**
@@ -50,8 +50,8 @@ public class ConsumerTotalController {
      * @param mangoNum 芒果斤数
      * @return
      */
-    @RequestMapping("/getFruitTotal/{consumerName}/{appleNum}/{strawNum}/{mangoNum}")
-    public String getFruitTotal(@PathVariable String consumerName, @PathVariable int appleNum, @PathVariable int strawNum, @PathVariable int mangoNum){
-        return consumerTotalService.getFruitTotal(environment, consumerName, appleNum, strawNum, mangoNum);
-    }
+//    @RequestMapping("/getFruitTotal/{consumerName}/{appleNum}/{strawNum}/{mangoNum}")
+//    public String getFruitTotal(@PathVariable String consumerName, @PathVariable int appleNum, @PathVariable int strawNum, @PathVariable int mangoNum){
+//        return consumerTotalService.getFruitTotal(environment, consumerName, appleNum, strawNum, mangoNum);
+//    }
 }
